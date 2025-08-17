@@ -1,0 +1,30 @@
+.feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px; /* بدل ما تكتب row-gap + column-gap */
+  margin-top: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.card h2{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 5px 0;
+    color: #000;
+
+}
+.card h3{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0;
+    color: #555;
+
+}
+.card p{
+    font-size: 14px;
+}
